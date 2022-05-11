@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  margin: 40px 40px;
+  
+  color: #000;
+}
+
+.quadrado {
+  text-align: center;
+  width: 50px;
+  background: #15133C;
+  display: inline-block;
+  padding: 40px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #15133C;
+}
+
+.jogador, .vencedor {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #000;
+}
+
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  color: #000;
+  background: #EC994B;
+  cursor: pointer;
+}
